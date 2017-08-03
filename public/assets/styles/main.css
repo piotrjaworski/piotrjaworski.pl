@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+body {
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  background-color: #F8F8F8;
+}
+.container {
+  margin-top: 30px;
+}
+.container .name img {
+  width: 100px;
+  border-radius: 100px;
+}
+.container .name h1 {
+  color: #5A5A5A !important;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.container .name h3 {
+  color: #F95050;
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.container .email {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.container .email p {
+  color: #919191;
+}
+.container .email a {
+  color: #5A5A5A;
+  text-decoration: none;
+}
+.container .social {
+  margin-top: 30px;
+}
+.container .social img:hover {
+  opacity: 0.7;
+}
+.container .social #git {
+  background-color: #231F20;
+}
+.container .social #linked {
+  background-color: #007FB1;
+}
+.container .social #last {
+  background-color: #D51007;
+}
+.container .social #insta {
+  background-color: #3F729B;
+}
+.container .info h1 {
+  font-size: 45px;
+  color: #4BC1D2;
+}
+.container .info p {
+  color: #5A5A5A;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.container .info h2 {
+  font-size: 24px;
+}
+.container .info h2 a {
+  font-size: 24px;
+  color: #333333;
+}
+.container .info a {
+  color: #5A5A5A;
+  text-decoration: none;
+  font-size: 16px;
+}
+.container .info .skills {
+  padding-left: 30px;
+}
+.container .info .skills ul {
+  padding-left: 0px;
+  list-style: none;
+  color: #5A5A5A;
+  font-size: 24px;
+}
+
+.alert {
+  margin-bottom: 0px !important;
+}
+
+@media (max-width: 990px) {
+  .skills {
+    margin-left: 6% !important;
+  }
+}
