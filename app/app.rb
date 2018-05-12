@@ -9,6 +9,27 @@ set :public_dir, 'public'
 get '/' do
   @tutorials = [
     {
+      title: "How to Setup Rails Application on Heroku – Redis, Sidekiq, Action Cable and Cron Configuration",
+      description: "A tutorial which shows how to setup and deploy your Rails application on Heroku to a production environment in order to see it live.",
+      link: "https://www.nopio.com/blog/setup-rails-application-heroku"
+    },
+    {
+      title: "Elasticsearch with Rails – How to Create a Simple Search Engine in 1 Hour",
+      description: "A tutorial which covers basic integration of Elasticsearch with Ruby on Rails.",
+      link: "https://www.nopio.com/blog/elasticsearch-rails"
+    },
+    {
+      title: "Sidekiq with Pusher – Why Is It Worth to Use Them Together?",
+      description: "In this article, I cover is it worth to connect Pusher with Ruby on Rails.",
+      link: "https://www.nopio.com/blog/sidekiq-with-pusher"
+    },
+    {
+      title: "How to build Airbnb Map Clone using React with Ruby on Rails",
+      description: "In this article, I show how to build an Airbnb Map clone using ReactJS and Ruby on Rails.",
+      link: "https://www.nopio.com/blog/airbnb-map-tutorial-react-rails"
+    },
+
+    {
       title: "Hanami – Ruby Web Framework - Review",
       description: "A review which covers and briefly describes Hanami - Ruby web framework.",
       link: "https://www.nopio.com/blog/hanami-ruby-web-framework-review"
