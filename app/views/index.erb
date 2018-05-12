@@ -33,24 +33,24 @@
       <h1>About:</h1>
       <p>
         Hello! I'm Piotrek, <%= Date.today.year - 1993 %> years old guy living in Cracow, Poland.
-        Sports fan, mainly volleyball and football. I love to travel and to spend my free time in an active way.
-        Web development and programming are my passions. I always want to create something fine, smart and also simple.
+        Sports fan, mainly volleyball and football. I love to travel and spend my free time in an active way.
+        Web development and programming are my passions. I always want to create something awesome, clear and also efficient.
         I consider that the most important think is an idea, without it, we can't create a something special.
       </p>
       <hr />
 
       <h1>Publications:</h1>
       <% @tutorials.each do |tutorial| %>
-        <h2><a target="_blank" href="<%= tutorial[:link] %>"><%= tutorial[:title] %></a></h2>
-        <p><%= tutorial[:description] %></p>
+        <h2><a target="_blank" href="<%= tutorial['link'] %>"><%= tutorial['title'] %></a></h2>
+        <p><%= tutorial['description'] %></p>
       <% end %>
       <hr />
 
       <h1>Open Source:</h1>
-      <h2><a target="_blank" href="https://github.com/piotrjaworski/database_repository">DatabaseRepository</a></h2>
-      <p>Gem which add another layer to Rack apps which use ActiveRecord - repositories. Repositories are used to interact with our database - execute all queries.</p>
-      <h2><a target="_blank" href="https://github.com/piotrjaworski/primer-rails">Primer-Rails</a></h2>
-      <p>Simply Ruby Gem which integrates Primer (CSS Framework made by Github) with Ruby on Rails.</p>
+      <% @opensource.each do |item| %>
+        <h2><a target="_blank" href="<%= item['link'] %>"><%= item['title'] %></a></h2>
+        <p><%= item['description'] %></p>
+      <% end %>
       <hr />
 
       <h1>Education:</h1>
@@ -64,24 +64,21 @@
       <h1>Skills:</h1>
       <h3>Backend:</h3>
       <ul>
-        <li>Ruby / Ruby on Rails</li>
-        <li>RSpec</li>
-        <li>MySQL / PostgreSQL</li>
-        <li>Apache SOLR</li>
+        <% @backend.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
       </ul>
       <h3>Frontend:</h3>
       <ul>
-        <li>JavaScript / AJAX</li>
-        <li>AngularJS</li>
-        <li>ReactJS</li>
-        <li>jQuery</li>
-        <li>HTML5 / HAML</li>
-        <li>CSS3 / SCSS</li>
+        <% @frontend.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
       </ul>
       <h3>Other:</h3>
       <ul>
-        <li>Git</li>
-        <li>UNIX</li>
+        <% @other.each do |item| %>
+          <li><%= item %></li>
+        <% end %>
       </ul>
     </div>
   </div>
