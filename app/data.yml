@@ -1,7 +1,7 @@
 tutorials:
 -
   title: "How to Set Up Redirects in a Ruby Rack Application"
-  description: "In this tutorial, I described to how to set up redirects in a Rack application using rack-rewrite gem."
+  description: "In this tutorial, I described how to set up redirects in a Rack application using rack-rewrite gem."
   link: "https://www.nopio.com/blog/how-to-set-up-redirects-in-a-ruby-rack-application"
 -
   title: "Is It Hard to Become a Software Developer?"
@@ -13,7 +13,7 @@ tutorials:
   link: "https://www.nopio.com/blog/why-reversible-migrations-are-important-and-how-to-write-them"
 -
   title: "How to Implement SSO System in Rails Using CAS Server"
-  description: "In this article, I shown how to integrate a Single-Sign-On system in a few applications using CAS Server."
+  description: "In this article, I showed how to integrate a Single-Sign-On system in a few applications using CAS Server."
   link: "https://www.nopio.com/blog/single-sign-on-rails-cas-server"
 -
   title: "How to Create an API Wrapper of an External Service in Rails"
