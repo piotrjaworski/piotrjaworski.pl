@@ -1,5 +1,29 @@
 tutorials:
 -
+  title: "How to Set Up Redirects in a Ruby Rack Application"
+  description: "In this tutorial, I described to how to set up redirects in a Rack application using rack-rewrite gem."
+  link: "https://www.nopio.com/blog/how-to-set-up-redirects-in-a-ruby-rack-application"
+-
+  title: "Is It Hard to Become a Software Developer?"
+  description: "In this article, I tried to write something about a path - how to become a Software Developer and tell if it is hard to achieve it."
+  link: "https://www.nopio.com/blog/become-a-software-developer"
+-
+  title: "Why Reversible Migrations Are Important and How to Write Them?"
+  description: "This article tells why is it important to write reversible migrations and why they could be useful."
+  link: "https://www.nopio.com/blog/why-reversible-migrations-are-important-and-how-to-write-them"
+-
+  title: "How to Implement SSO System in Rails Using CAS Server"
+  description: "In this article, I shown how to integrate a Single-Sign-On system in a few applications using CAS Server."
+  link: "https://www.nopio.com/blog/single-sign-on-rails-cas-server"
+-
+  title: "How to Create an API Wrapper of an External Service in Rails"
+  description: "An article which shows how to create an external API wrapper combined in a Ruby gem."
+  link: "https://www.nopio.com/blog/how-to-create-an-api-wrapper-of-an-external-service-in-rails"
+-
+  title: "How to Organize Large Rails Applications"
+  description: "A tutorial which describes how to organize large Rails applications using a few design patterns."
+  link: "https://www.nopio.com/blog/how-to-organize-large-rails-applications"
+-
   title: "How to Setup Rails Application on Heroku – Redis, Sidekiq, Action Cable and Cron Configuration"
   description: "A tutorial which shows how to setup and deploy your Rails application on Heroku to a production environment in order to see it live."
   link: "https://www.nopio.com/blog/setup-rails-application-heroku"
@@ -9,13 +33,12 @@ tutorials:
   link: "https://www.nopio.com/blog/elasticsearch-rails"
 -
   title: "Sidekiq with Pusher – Why Is It Worth to Use Them Together?"
-  description: "In this article, I cover is it worth to connect Pusher with Ruby on Rails."
+  description: "In this article, I described if it is worth to connect Pusher with Ruby on Rails."
   link: "https://www.nopio.com/blog/sidekiq-with-pusher"
 -
   title: "How to build Airbnb Map Clone using React with Ruby on Rails"
   description: "In this article, I show how to build an Airbnb Map clone using ReactJS and Ruby on Rails."
   link: "https://www.nopio.com/blog/airbnb-map-tutorial-react-rails"
-
 -
   title: "Hanami – Ruby Web Framework - Review"
   description: "A review which covers and briefly describes Hanami - Ruby web framework."
@@ -68,6 +91,14 @@ tutorials:
   title: "Search application with Blacklight"
   description: "Tutorial which shows how to integrate Ruby on Rails with Apache Solr - using Blacklight."
   link: "https://www.nopio.com/blog/create-search-application-blacklight/"
+
+talks:
+-
+  title: "How to scrape dynamic web pages using Ruby"
+  place: "LRUG - London Ruby User Group"
+  description: "In this talk, I shown how to scrape dynamic web pages, how to deal with a content which is loaded async and how to write a scraper which is able to process tasks in a background processor."
+  link: "https://skillsmatter.com/skillscasts/12800-how-to-scrape-dynamic-web-pages-using-ruby"
+  slides: "LRUG.pdf"
 
 opensource:
 -
