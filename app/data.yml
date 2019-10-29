@@ -113,15 +113,17 @@ opensource:
 backend:
 - Ruby / Ruby on Rails
 - RSpec / Capybara / MiniTest
-- MySQL / PostgreSQL
+- PostgreSQL / MySQL
 - Sidekiq
 - ElasticSearch
 - Apache SOLR
 
 frontend:
-- JavaScript / AJAX
+- JavaScript
+- AJAX
+- Vue.js
 - AngularJS
-- ReactJS
+- React
 - jQuery
 - HTML5 / HAML
 - CSS3 / SCSS
