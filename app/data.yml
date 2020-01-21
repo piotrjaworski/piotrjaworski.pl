@@ -95,8 +95,14 @@ tutorials:
 talks:
 -
   title: "How to scrape dynamic web pages using Ruby"
+  place: "KRUG - Krakow Ruby User Group"
+  description: "In this talk, I presented how to scrape dynamic web pages, deal with content that is loaded async and write a scraper that can process tasks in a background processor."
+  link: ""
+  slides: "KRUG.pdf"
+-
+  title: "How to scrape dynamic web pages using Ruby"
   place: "LRUG - London Ruby User Group"
-  description: "In this talk, I showed how to scrape dynamic web pages, how to deal with a content which is loaded async and how to write a scraper which is able to process tasks in a background processor."
+  description: "In this talk, I presented how to scrape dynamic web pages, deal with content that is loaded async and write a scraper that can process tasks in a background processor."
   link: "https://skillsmatter.com/skillscasts/12800-how-to-scrape-dynamic-web-pages-using-ruby"
   slides: "LRUG.pdf"
 
