@@ -40,9 +40,13 @@
 
       <h1>Talks:</h1>
       <% @talks.each do |talk| %>
-        <h2><a target="_blank" href="<%= talk['link'] %>"><%= talk['title'] %></a></h2>
+        <h2><%= talk['title'] %></h2>
         <h4><%= talk['place'] %></h4>
-        <h5><%= pdf_tag(talk['slides'], 'Download slides - PDF file') %></h5>
+        <h5>
+          <% if !!talk['link'] %>
+            <a target="_blank" href="<%= talk['link'] %>">Video | </a>
+          <% end %>
+          <%= pdf_tag(talk['slides'], 'Download slides - PDF file') %></h5>
         <p><%= talk['description'] %></p>
       <% end %>
       <hr />

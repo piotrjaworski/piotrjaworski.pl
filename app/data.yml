@@ -96,7 +96,6 @@ talks:
 -
   title: "How to scrape dynamic web pages using Ruby"
   place: "KRUG - Krakow Ruby User Group"
-  link: ""
   slides: "KRUG.pdf"
 -
   place: "LRUG - London Ruby User Group"
